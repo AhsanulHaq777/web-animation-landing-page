@@ -50,3 +50,31 @@
   color: blue;
   
 }
+#aboutleft {
+  position: absolute;
+  
+  width: 50%;
+  margin-top: 1000px;
+
+  height: 600px;
+}
+#labout {
+  width: 50%;
+}
+#aboutright {
+  margin-left: 55%;
+  position: absolute;
+  width: 45%;
+  height: 600px;
+  text-align: center;
+  font-size: x-large;
+  margin-top: 900px;
+
+}
+#about {
+  width: 100%;
+}
+#abhed {
+  text-align: center;
+  color: #97f4e5;
+}
