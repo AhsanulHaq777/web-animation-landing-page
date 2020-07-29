@@ -6,10 +6,11 @@ import aboutimage from '.././images/aboutus.png';
 import webdesignimage from '.././images/websitedesign.gif';
 import seoimage from '.././images/Seoservice.gif';
 import marketingimage from '.././images/digitalmark.gif';
-import useWebAnimations, {fadeInUp, zoomIn, bounceIn}  from "@wellyshen/use-web-animations";
+import workimage from '.././images/preview.gif';
+import useWebAnimations, {fadeInUp, zoomIn, bounceIn, backInRight}  from "@wellyshen/use-web-animations";
 
 export default function LandingPage() {
-    var mainref, aboutref, serviceref1, serviceref2, serviceref3;
+    var mainref, aboutref, serviceref1, serviceref2, serviceref3, workimageref;
     {
         const {keyframes, timing} = fadeInUp;
         mainref = useWebAnimations({
@@ -75,6 +76,17 @@ export default function LandingPage() {
     const service3play = () => {
         serviceref3.getAnimation().play();
     }
+
+    {
+        const {keyframes, timing} = backInRight;
+        workimageref = useWebAnimations({
+            keyframes,
+            timing: {
+                ...timing,
+                duration: timing.duration - 0.75,
+            }
+        });
+    }
     
     return(
         <div>
@@ -110,6 +122,9 @@ export default function LandingPage() {
                     <img id="servimages" alt="digital market" src={marketingimage} />
                     <h3 id="servtitle">Digital Marketing</h3>
                 </div>
+            </div>
+            <div id="footerimg" ref={workimageref.ref}>
+                <img id="workimage" alt="workhome" src={workimage} />
             </div>
         </div>
     );

@@ -82,7 +82,7 @@
 #services {
   background-color: #312928;
   width: 100%;
-  height: 700px;
+  height: 800px;
   position: absolute;
   margin-top: 1800px;
   font-size: x-large;
@@ -124,17 +124,18 @@
   height: 300px;
   padding: 15px;
 }
-/* #seo {
-  padding: 15px;
-  width: 400px;
-  height: 400px;
-}
-#digi {
-  width: 400px;
-  height: 400px;
-  padding: 15px;
-} */
 #servtitle {
   text-align: center;
   color: #342435;
+}
+#footerimg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-top: 2600px;
+}
+#workimage {
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
