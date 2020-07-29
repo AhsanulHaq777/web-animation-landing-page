@@ -3,7 +3,8 @@
 }
 #Navi {
   /* background-color: #342435; */
-  background: none;
+  /* background: none; */
+  background-color: #25baa6;
 }
 #navimage {
   width: 150px;
