@@ -123,9 +123,10 @@ export default function LandingPage() {
                     <h3 id="servtitle">Digital Marketing</h3>
                 </div>
             </div>
-            <div id="footerimg" ref={workimageref.ref}>
+            <div id="footerimg" >
                 <img id="workimage" alt="workhome" src={workimage} />
             </div>
+            
         </div>
     );
 }
