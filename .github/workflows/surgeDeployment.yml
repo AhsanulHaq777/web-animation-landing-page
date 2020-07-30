@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Wen animation landing page
+name: Web animation landing page project 4B
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -36,4 +36,4 @@ jobs:
     - name: Installing Surge
       run: npm install -g surge
     - name: Deploying using Surge
-      run: surge ./build http://landing-page-4b.surge.sh/ --token ${{secrets.SURGE_WAAPI_LANDING_TOKEN}}
+      run: surge ./build http://web-animation-landing-page.surge.sh/ --token ${{secrets.SURGE_WAAPI_LANDING_TOKEN}}
