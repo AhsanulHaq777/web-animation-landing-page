@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import NavBar from './components/Navigation.js';
+// import NavBar from './components/Navigation.js';
 import LandingPage from './components/LandingPage.js';
 
 function App() {
   return (
     <div>
-      <NavBar />
+      {/* <NavBar /> */}
       <LandingPage />
     </div>
   );
